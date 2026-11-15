@@ -38,8 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'daphne',
     'channels',
+    'analytics.apps.AnalyticsConfig',
+    'dashboard.apps.DashboardConfig',
+    'parcels.apps.ParcelsConfig',
 ]
 
 MIDDLEWARE = [
